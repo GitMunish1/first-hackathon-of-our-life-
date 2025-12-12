@@ -1,5 +1,5 @@
 {
-  "name": "SwarmMind Nexus",
-  "description": "A centralized dashboard for the SwarmMind multi-agent system, featuring real-time Gemini-powered chat, system monitoring visualization, and agent status tracking.",
+  "name": "Devil AI",
+  "description": "A centralized dashboard for the Devil AI multi-agent system, featuring real-time Gemini-powered chat, AI monitoring visualization, and agent status tracking.",
   "requestFramePermissions": []
 }

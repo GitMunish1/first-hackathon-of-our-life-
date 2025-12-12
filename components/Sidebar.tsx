@@ -11,8 +11,8 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, agents }) => {
   const menuItems = [
     { id: 'dashboard', icon: LayoutDashboard, label: 'Dashboard' },
-    { id: 'chat', icon: MessageSquare, label: 'Swarm Chat' },
-    { id: 'system', icon: Activity, label: 'System Monitor' },
+    { id: 'chat', icon: MessageSquare, label: 'Devil Chat' },
+    { id: 'system', icon: Activity, label: 'AI Monitor' },
     { id: 'settings', icon: Settings, label: 'Settings' },
   ];
 
@@ -20,7 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab, agents }) =>
     <div className="w-64 bg-slate-900 border-r border-slate-800 flex flex-col h-full">
       <div className="p-6 flex items-center gap-3 border-b border-slate-800">
         <Hexagon className="text-blue-500 animate-pulse" size={28} />
-        <h1 className="text-xl font-bold tracking-wider text-slate-100">SWARMMIND</h1>
+        <h1 className="text-xl font-bold tracking-wider text-slate-100">DEVIL AI</h1>
       </div>
 
       <nav className="flex-1 p-4 space-y-2">

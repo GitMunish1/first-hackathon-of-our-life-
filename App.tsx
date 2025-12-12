@@ -10,7 +10,7 @@ const App: React.FC = () => {
 
   // Initial Mock Agent Data
   const [agents, setAgents] = useState<Agent[]>([
-    { id: '1', name: 'Alpha-1 (Coord)', role: AgentRole.COORDINATOR, status: 'busy', capabilities: ['Orchestration'] },
+    { id: '1', name: 'Alpha-1 (Overseer)', role: AgentRole.OVERSEER, status: 'busy', capabilities: ['Orchestration'] },
     { id: '2', name: 'Beta-Dev (Eng)', role: AgentRole.ENGINEER, status: 'idle', capabilities: ['React', 'TS'] },
     { id: '3', name: 'Gamma-Ops (Data)', role: AgentRole.ANALYST, status: 'idle', capabilities: ['Metrics'] },
     { id: '4', name: 'Delta-Sec (Sec)', role: AgentRole.ANALYST, status: 'offline', capabilities: ['Security'] },

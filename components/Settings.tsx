@@ -39,7 +39,7 @@ const Settings: React.FC<SettingsProps> = ({ agents, setAgents }) => {
 
   const getRoleIcon = (role: AgentRole) => {
     switch (role) {
-      case AgentRole.COORDINATOR: return <Activity size={16} className="text-blue-400" />;
+      case AgentRole.OVERSEER: return <Activity size={16} className="text-blue-400" />;
       case AgentRole.ENGINEER: return <Terminal size={16} className="text-emerald-400" />;
       case AgentRole.ANALYST: return <ServerCog size={16} className="text-purple-400" />;
       default: return <ShieldAlert size={16} className="text-slate-400" />;
@@ -53,7 +53,7 @@ const Settings: React.FC<SettingsProps> = ({ agents, setAgents }) => {
           <ServerCog className="text-blue-500" />
           System Configuration
         </h2>
-        <p className="text-slate-400 mt-1">Manage SwarmMind neural nodes and agent permissions.</p>
+        <p className="text-slate-400 mt-1">Manage Devil AI neural nodes and agent permissions.</p>
       </header>
 
       {/* Agent Roster */}

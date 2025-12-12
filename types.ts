@@ -1,5 +1,5 @@
 export enum AgentRole {
-  COORDINATOR = 'COORDINATOR',
+  OVERSEER = 'OVERSEER',
   ENGINEER = 'ENGINEER',
   ANALYST = 'ANALYST',
   USER = 'USER'

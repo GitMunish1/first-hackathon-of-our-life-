@@ -78,8 +78,8 @@ const SystemMonitor: React.FC<SystemMonitorProps> = ({ agents }) => {
     <div className="p-8 space-y-8 overflow-y-auto h-full">
       <header className="mb-8 flex justify-between items-end">
         <div>
-          <h2 className="text-2xl font-bold text-slate-100 mb-2">System Telemetry</h2>
-          <p className="text-slate-400">Real-time metrics from the SwarmMind neural fabric.</p>
+          <h2 className="text-2xl font-bold text-slate-100 mb-2">AI Telemetry</h2>
+          <p className="text-slate-400">Real-time metrics from the Devil AI neural fabric.</p>
         </div>
         <div className="flex items-center gap-2">
            <span className="relative flex h-3 w-3">

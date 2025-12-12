@@ -9,7 +9,7 @@ const ChatInterface: React.FC = () => {
     {
       id: '1',
       role: 'model',
-      content: 'SwarmMind Protocol Initiated. I am the Coordinator. How may I assist you with agent orchestration today?',
+      content: 'Devil AI System Booted. I am the Overseer. How may I assist you?',
       timestamp: new Date(),
     }
   ]);
@@ -136,7 +136,7 @@ const ChatInterface: React.FC = () => {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Transmit message to Swarm Core..."
+            placeholder="Transmit message to Devil Core..."
             className="w-full bg-slate-950 text-slate-200 border border-slate-800 rounded-xl py-4 pl-6 pr-14 focus:outline-none focus:border-blue-500/50 focus:ring-1 focus:ring-blue-500/50 resize-none h-[60px]"
             disabled={isLoading}
           />
